@@ -1,0 +1,41 @@
+[global_config]
+  borderless = True
+  geometry_hinting = False
+  handle_size = 1
+  title_font = Office Code Pro Medium 10
+  title_use_system_font = False
+  window_state = fullscreen
+[keybindings]
+  close_term = <Shift><Alt>w
+  close_window = <Shift><Alt>q
+  copy = <Shift><Alt>c
+  cycle_next = <Alt>Tab
+  cycle_prev = <Shift><Alt>Tab
+  go_down = <Alt>j
+  go_left = <Alt>h
+  go_next = <Shift><Alt>n
+  go_prev = <Shift><Alt>p
+  go_right = <Alt>l
+  go_up = <Alt>k
+  layout_launcher = <Alt>p
+  split_horiz = <Shift><Alt>o
+  split_vert = <Shift><Alt>e
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_image = None
+    font = Office Code Pro Medium 10
+    foreground_color = "#ffffff"
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
